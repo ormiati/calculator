@@ -1,0 +1,49 @@
+.led {
+    width: 208px;
+    height: 40px;
+    border-color:  #f5f5ea;
+}
+
+.container {
+ display: flex;
+ border-color:  #f5f5ea;
+}
+
+.col {
+    display: flex;
+    flex-direction: column;
+    width: 50px;
+    height:250px;
+    background-color: #ffffff;
+    margin: 2px;
+    margin-top: 10px;
+}
+
+.blue {
+    height: 130px;
+    background-color: #1fa0c0;
+    color: #ffffff;
+    margin-top: 2px;
+    border-color: #f5f5ea;
+    }
+
+.blue:hover {
+    background-color: #0396bb;
+}
+
+.white {
+    background-color: #fffffa;
+    margin-top: 3px;
+    height: 30px;
+    border-color:  #f5f5ea;
+}
+
+.white:hover{
+    background-color: #f5f5ea;
+}
+
+.grey {
+    height: 30px;
+    border-color:  #f5f5ea;
+}
+

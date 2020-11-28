@@ -7,25 +7,38 @@
     <link rel="stylesheet" href="index.css">
 </head>
 <body>
-    <div>
-        <input class="led" type="text">
-        <div>"+"</div>
-        <div>"-"</div>
-        <div>"*"</div>
-        <div>"/"</div>
-        <div>"7"</div>
-        <div>"8"</div>
-        <div>"9"</div>
-        <div>"="</div>
-        <div>"4"</div>
-        <div>"5"</div>
-        <div>"6"</div>
-        <div>"1"</div>
-        <div>"2"</div>
-        <div>"3"</div>
-        <div>"0"</div>
-        <div>"."</div>
-        <div>"C"</div>
+    <div class="keret">
+        
+        <input class="led" type="text" disabled>
+
+        <div class="container">
+        
+            <div class="col">
+                <button class="grey" value="+">+</button>
+                <button class="white" value="7">7</button>
+                <button class="white" value="4">4</button>
+                <button class="white" value="1">1</button>
+                <button class="white" value="0">0</button>
+            </div>
+            <div class="col">
+                <button class="grey" value="-">-</button>
+                <button class="white" value="8">8</button>
+                <button class="white" value="5">5</button>
+                <button class="white" value="2">2</button>
+                <button class="white" value=".">.</button>
+            </div>
+            <div class="col">
+                <button class="grey" value="*">*</button>
+                <button class="white" value="9">9</button>
+                <button class="white" value="6">6</button>
+                <button class="white" value="3">3</button>
+                <button class="white" value="C">C</button>
+            </div>
+            <div class="col">
+                <button class="grey" value="/">/</button>
+                <button class="blue" value="=">=</button> 
+            </div>
+        </div>
     </div>
     
     <script src="/js/index.js"></script>
