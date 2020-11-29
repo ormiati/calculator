@@ -1,7 +1,7 @@
-.led {
+.led{
     width: 208px;
     height: 40px;
-    border-color:  #f5f5ea;
+    border: 3px solid #f5f5ea;
 }
 
 .container {
